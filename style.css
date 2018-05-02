@@ -1,0 +1,25 @@
+.date-container {
+    display: block;
+    padding: 5px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+.date-container__title {
+    width: 180px;
+}
+
+.date-container__data {
+    width: 120px;
+    padding: 3px;
+}
+
+.error-message {
+    color: #ff0000;
+    padding-left: 5px;
+    line-height: 25px;
+}
+
+.date-container__data.error {
+    border-color: #ff0000;
+}
